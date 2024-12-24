@@ -1,0 +1,82 @@
+h1,h2,h3
+{
+  font-family: "Playfair", serif;
+  font-weight: 1000;
+}
+body
+{
+  font-family: "Inter", serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body::-webkit-scrollbar
+{
+    display:block;
+    width:6px;
+    background-color: rgb(255, 0, 0);
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border-radius: 100px;
+}
+.carousel-container {
+  width: 100%;
+  height: 600px; 
+  overflow: hidden;
+  border-radius: 40px; /* Optional for rounded corners */
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-fade-in-delay {
+  animation: fadeIn 1s ease-out 0.5s;
+  animation-fill-mode: forwards;
+}
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.masonry-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.masonry-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
