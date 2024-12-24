@@ -67,7 +67,7 @@ export const ContactUs = () => {
       <div className="flex  justify-center  ">
       <img
         src="/teampic.jpg"
-        alt="Gallery Image"
+        alt="Gallery"
         className="w-96 object-cover rounded-lg cursor-pointer"
         onClick={() => openModal('/teampic.jpg')}
       />

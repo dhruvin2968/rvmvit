@@ -27,7 +27,7 @@ export const Headerr = () => {
             <span>Rev Till You Die</span>
           </Link> */}
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src={Logo} className="h-16" alt="Flowbite Logo" />
+      <img src={Logo} className="h-16" alt="" />
       <div className="flex flex-col items-start"> {/* Align text to the left */}
         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white"><span className="text-Redd">R</span>ev<span className="text-Redd">M</span>echanics</span>
         <span className="logo-motto  font-bold text-sm bg-gradient-to-r font-serif  from-Redd via-white to-yellow-500 bg-clip-text text-transparent ml-4"> Rev Till You Die....</span>
