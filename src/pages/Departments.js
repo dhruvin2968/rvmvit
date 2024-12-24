@@ -58,7 +58,7 @@ const DepartmentCard = ({ department, index }) => (
     <div className="md:w-1/3">
       <img
         src={department.headImage}
-        alt={`${department.name} Head`}
+        alt=""
         className="w-full h-64 object-cover rounded-lg"
       />
     </div>

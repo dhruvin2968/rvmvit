@@ -6,7 +6,7 @@ const DepartmentCard = ({ icon: Icon, title, description, image }) => {
       <div className="absolute inset-0">
         <img
           src={image}
-          alt={title}
+          alt=""
           className="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/80 to-transparent" />

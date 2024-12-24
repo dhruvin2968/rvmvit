@@ -7,7 +7,7 @@ const EventCard = ({ event }) => {
       <div className="relative h-48 overflow-hidden">
         <img 
           src={event.image} 
-          alt={event.title}
+          alt=""
           className="w-full h-full object-cover"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black/50" />

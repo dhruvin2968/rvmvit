@@ -34,7 +34,7 @@ export const Grid = () => {
           <div key={index} className="gallery-item">
             <img
               src={image}
-              alt={`Gallery Image ${index + 1}`}
+              alt=""
               className="w-full h-full object-cover rounded-lg cursor-pointer"
               onClick={() => openModal(image)}
             />
@@ -45,7 +45,7 @@ export const Grid = () => {
       {isModalOpen && (
         <div className="modal-overlay fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center">
           <div className="modal-content relative bg-white rounded-lg p-6">
-            <img src={currentImage} alt="Modal Image" className="max-w-full max-h-screen object-contain" />
+            <img src={currentImage} alt="" className="max-w-full max-h-screen object-contain" />
             <button onClick={closeModal} className="absolute top-4 right-4 text-white text-xl">
               &times;
             </button>
