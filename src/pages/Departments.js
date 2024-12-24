@@ -2,13 +2,13 @@ import { motion } from 'framer-motion';
 
 const departments = [
   {
-    name: "Management Domain",
-    description: "This Domain ensures seamless coordination of all team operations. It organizes resources, plans logistics, secures sponsorships, and maintains budgets, creating an environment where technical and racing teams can focus on performance without distractions.",
+    name: "Management Department",
+    description: "This department ensures seamless coordination of all team operations. It organizes resources, plans logistics, secures sponsorships, and maintains budgets, creating an environment where technical and racing teams can focus on performance without distractions.",
     headImage: "/mgmt2.jpg"
   },
   {
     name: "Vehicle Dynamics Department",
-    description: "The vehicle dynamics domain focuses on understanding and optimizing the interaction between the motorcycle's mechanical components, the rider, and the track to achieve peak performance. The goal is to maximize stability, handling, and traction, enabling the motorcycle to perform at its best in various racing conditions while providing the rider with precise control and feedback.",
+    description: "The vehicle dynamics department focuses on understanding and optimizing the interaction between the motorcycle's mechanical components, the rider, and the track to achieve peak performance. The goal is to maximize stability, handling, and traction, enabling the motorcycle to perform at its best in various racing conditions while providing the rider with precise control and feedback.",
     headImage: "/vehicle.jpg"
   },
   {
