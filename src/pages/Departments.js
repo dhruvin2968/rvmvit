@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const departments = [
   {
     name: "Management Domain",
-    description: "This department is tasked with engineering the motorcycle's structural components. The team uses advanced design software to ensure optimal performance and aesthetics by developing the chassis, swingarm, and other key elements. They effectively collaborate with other domains to integrate all components seamlessly, providing a well-balanced and efficient design.",
+    description: "This Domain ensures seamless coordination of all team operations. It organizes resources, plans logistics, secures sponsorships, and maintains budgets, creating an environment where technical and racing teams can focus on performance without distractions.",
     headImage: "/mgmt2.jpg"
   },
   {
@@ -35,12 +35,7 @@ const departments = [
     name: "Electrical Department",
     description: "This department is involved in optimizing the motorcycle's electrical systems, ensuring reliability, efficiency, and performance. Key focus areas include the ignition system, battery management, wiring harness development, sensor integration, electro-mechanical system integration, ECU optimization, and overall electrical safety.",
     headImage: "/electrical.jpg"
-  },
-  {
-    name: "Logistics Department",
-    description: "This department is tasked with engineering the motorcycle's structural components. The team uses advanced design software to ensure optimal performance and aesthetics by developing the chassis, swingarm, and other key elements. They effectively collaborate with other domains to integrate all components seamlessly, providing a well-balanced and efficient design.",
-    headImage: "/mgmt2.jpg"
-  },
+  }
   
 ];
 
