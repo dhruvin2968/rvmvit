@@ -2,6 +2,8 @@ import React from 'react';
 import EventCard from './EventCard';
 import {Rivierapics} from './Rivierapics'
 import { Rivierapics2 } from './Rivierapics2';
+
+import { useEffect } from 'react';
 export const Events = () => {
   const events = [
     {
@@ -55,6 +57,9 @@ export const Events = () => {
       image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=800"
     }
   ];
+  useEffect(() => {
+    document.title = `RevMechanics - Rev Till You Die`;
+  });
   return (
     <section className="py-16 bg-black">
       <div className="max-w-7xl mx-auto px-4">

@@ -1,6 +1,6 @@
 import React from 'react';
 import TeamMemberCard from './TeamMemberCard';
-
+import { useEffect } from 'react';
 export const ContactUs = () => {
   const teamMembers = [
     {
@@ -25,7 +25,9 @@ export const ContactUs = () => {
       linkedin: "https://linkedin.com/company/team_account",
     },
   ];
-
+  useEffect(() => {
+    document.title = `RevMechanics - Rev Till You Die`;
+  });
   return (
     <section className="min-h-screen bg-black flex flex-col justify-between py-16">
       <div className="max-w-6xl mx-auto px-4">

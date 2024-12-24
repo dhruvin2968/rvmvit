@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 
+import { useEffect } from 'react';
 const departments = [
   {
     name: "Management Department",
@@ -61,6 +62,9 @@ const DepartmentCard = ({ department, index }) => (
 );
 
 export const Departments = () => {
+  useEffect(() => {
+    document.title = `RevMechanics - Rev Till You Die`;
+  });
   return (
     <div className="pt-20 px-4 pb-16">
       <div className="max-w-6xl mx-auto">

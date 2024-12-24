@@ -2,7 +2,11 @@ import React from 'react';
 import BgVideo from './BgVideo';
 import { AboutUs } from './AboutUs';
 
+import { useEffect } from 'react';
 export const Home = () => {
+  useEffect(() => {
+      document.title = `RevMechanics - Rev Till You Die`;
+    });
   return (
     <>
       <div className="relative h-screen flex items-center justify-center text-white overflow-hidden bg-black">
