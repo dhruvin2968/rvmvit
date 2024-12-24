@@ -1,5 +1,5 @@
 import React from 'react';
-import BgVideo from './BgVideo';
+import BgVideo from '../components/BgVideo';
 import { AboutUs } from './AboutUs';
 
 import { useEffect } from 'react';

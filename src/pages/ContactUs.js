@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamMemberCard from './TeamMemberCard';
+import TeamMemberCard from '../components/TeamMemberCard';
 import { useEffect } from 'react';
 export const ContactUs = () => {
   const teamMembers = [
