@@ -37,7 +37,7 @@ export const ContactUs = () => {
             <TeamMemberCard key={member.name} member={member} />
           ))}
         </div>
-        <div className="p-12">
+        <div className="pt-10 pb-8">
           <h1 className="text-5xl text-gray-100 font-extrabold text-center mb-12">Ex - Team Members</h1>
           <TeamMemberCard
             key="x"

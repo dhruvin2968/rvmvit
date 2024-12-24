@@ -3,7 +3,7 @@ import { GraduationCap, Wrench, Trophy } from 'lucide-react';
 
 const TeamOverview = () => {
   return (
-    <div className="prose prose-invert mx-auto px-4 py-12">
+    <div className="prose prose-invert  py-12">
       <div className="bg-gradient-to-r from-black via-gray-900 to-black rounded-xl p-8 hover:bg-gray-700 transition-all transform shadow-lg">
         {/* Icon Highlights Section */}
         <div className="flex flex-wrap gap-8 justify-center mb-12">
